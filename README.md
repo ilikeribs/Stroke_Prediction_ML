@@ -1,8 +1,6 @@
-# Module 3 - Sprint 2 Gradient Boosted Trees 
+# Stroke Prediction analysis and model
 
-This project is a part of the Turing College Data Science learning programme at (https://www.turingcollege.com/data-science). Projects outline can be found at the [main GitHub repo](https://github.com/TuringCollegeSubmissions/vbeino-ML.2.5.git).
-
-#### -- Project Status: [Active]
+#### -- Project Status: [inactive]
 
 ## Project Intro/Objective
 The purpose of this project is to develop and practice supervised machine learning skills as part of the Data Science programme curriculum. For the provided 'Stroke Prediction' dataset a task was provided to produce a binary machine learning classifier which would accurately predict stroke labels for patients. 
@@ -20,7 +18,7 @@ For the given Stroke Prediction dataset (https://www.kaggle.com/datasets/fedesor
 - Is there a statistically significant relationship between the Residence type (Urban/Rural) and the presence of stroke in patients?
 - Is there a statistically significant relationship between gender and the presence of a stroke in patients?
 
-A tuned Logistic Regression model used as baseline with Average Precision score of ** on training dataset
+A tuned Logistic Regression model used as baseline on training dataset
 
 Random Forest, XGBoost and LightGBM models assembled and tuned using RandomGridSearch cross validation method, best performing model chosen and threshold tuned for maximum F1 score. Selected threshold applied and wrapped into a sk.lego Thresholder pipeline and deployed using FastAPI. Final model feature importance and predictions analyzed and presented using SHAP library. Scores of the final binary classifier for target label on test dataset:
 
@@ -41,5 +39,5 @@ Random Forest, XGBoost and LightGBM models assembled and tuned using RandomGridS
 
 ## Author 
 
-**Lead : [Vytautas Beinoravicius ]**
+**Lead : [Vytas Bein ]**
 
